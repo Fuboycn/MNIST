@@ -1,0 +1,6 @@
+python
+Docker
+Flask
+Cassandra
+Tensorflow
+

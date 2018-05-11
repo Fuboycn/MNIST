@@ -99,7 +99,7 @@ def deleteKeyspace():
 
 
 '''use python to insert a few records in our table'''
-# insert the images' time, name and value 
+# insert the images' time, name and value(this will record the information by user's uploaded images)
 
 def insertData(time, name, value):
     cluster = Cluster(contact_points=['127.0.0.1'],port=9042)
